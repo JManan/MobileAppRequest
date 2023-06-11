@@ -1,0 +1,25 @@
+ion-content {
+    --background: linear-gradient(180deg, #E6F4FD 0%, #FEFEFE 28.13%);
+}
+
+ion-list {
+    --background: transparent;
+}
+
+.login-block ion-button {
+    margin: 0px auto;
+    --background: linear-gradient(180deg, #1D4559 0%, #0F374A 100%);
+    --border-radius: 9px;
+    width: 100%;
+    height: 80%;
+}
+.username-item {
+    margin-bottom: 30px;
+}
+.password-item {
+    margin-bottom: 30px;
+}
+
+.footer {
+    min-height: 10%;
+}

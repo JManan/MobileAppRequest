@@ -1,14 +1,44 @@
-<ion-content [fullscreen]="true">
+<ion-content class="content" [fullscreen]="true">
   <ion-grid>
+    <div class="top-head">
+      <ion-row>
+        <ion-col>
+          <ion-img src="../../assets/icon/emblem.svg" alt="emblem" class="ion-float-left"></ion-img>
+          <ion-img src="../../assets/icon/left_img.svg" alt="left_img" class="ion-float-right left_img"></ion-img>
+        </ion-col>
+      </ion-row>
+    </div>
     <ion-row>
       <ion-col>
-        <div class="container">
-          <ion-img src="assets/icon/emblem.svg" alt="emblem"></ion-img>
+        <div class="login-block">
+          <ion-list>
+          <ion-list-header>
+            <ion-label> <strong>SSO Login</strong></ion-label>
+          </ion-list-header>
+        <div class="username-item">
+          <ion-item>
+            <ion-input label="SSO ID" type="text" labelPlacement="stacked" lines="inset"></ion-input>
+          </ion-item>
         </div>
+          
+        <div class="password-item">
+          <ion-item>
+            <ion-input label="Password" type="Password" labelPlacement="stacked" lines="inset"></ion-input>
+          </ion-item>
+        </div>
+          <ion-item lines="none">
+            <ion-button>Submit</ion-button>
+          </ion-item>
+        </ion-list>
+      </div>
       </ion-col>
     </ion-row>
+    <div class="footer">
+      <ion-row>
+        <ion-col>
+          <ion-img src="../../assets/icon/footer.svg"></ion-img>
+        </ion-col>
+      </ion-row>
+    </div>
   </ion-grid>
 </ion-content>
-
-
-
